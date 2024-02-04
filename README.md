@@ -4,7 +4,7 @@
 
 Currently under development.
 
-## What’s This Good?
+## What’s This Good For?
 
 - Crunching data on your local machine that’s in csv or parquet.
 - Crunching data in the cloud via a cheap temporal compute like AWS Fargate
