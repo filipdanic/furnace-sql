@@ -1,0 +1,16 @@
+{
+  "name": "furnace-sql",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/parquetjs": "^0.10.6",
+    "bun-types": "^1.0.25"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "parquetjs": "^0.11.2"
+  }
+}
