@@ -1,5 +1,10 @@
 {
   "name": "furnace-sql",
+  "version": "0.0.1",
+  "keywords": ["bun", "bun sqlit", "local sql"],
+  "author": "Filip Danic <filipdanic7@gmail.com> (https://danicfilip.com)",
+  "bugs": "https://github.com/filipdanic/furnace-sql/issues",
+  "description": "a wrapper around bun:sqlite to let you crunch data in your local",
   "module": "index.ts",
   "type": "module",
   "main": "dist/index.js",
