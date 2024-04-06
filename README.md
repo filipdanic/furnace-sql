@@ -2,7 +2,7 @@
 
 `furnace-sql` is a typescript library for [bun](https://bun.sh/) that makes it easy to load your data from csv and parquet files into a SQLite database and run queries on top of it.
 
-Currently under development. Read more about [in this blog post.](https://www.thesoftwarelounge.com/getting-started-with-bun/)
+Currently under development. Read more about [in this blog post.](https://www.thesoftwarelounge.com/crunch-data-with-furnace-sql/)
 
 ## What’s This Good For?
 
