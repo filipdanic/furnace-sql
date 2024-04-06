@@ -14,7 +14,7 @@ Currently under development.
 ## Example
 
 ```typescript
-import { executeTransformation } from "furnace-sql";
+import { executeTransformation } from "furnace-sql/dist/src/index";
 
 const t = await executeTransformation<MyType>(
   {

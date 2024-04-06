@@ -1,15 +1,22 @@
 {
   "name": "furnace-sql",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "keywords": ["bun", "bun sqlit", "local sql"],
   "author": "Filip Danic <filipdanic7@gmail.com> (https://danicfilip.com)",
-  "bugs": "https://github.com/filipdanic/furnace-sql/issues",
+  "homepage": "https://www.thesoftwarelounge.com/crunch-data-with-furnace-sql/",
+  "bugs": {
+    "url": "https://github.com/filipdanic/furnace-sql/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:filipdanic/furnace-sql.git"
+  },
   "license": "MIT",
   "description": "a wrapper around bun:sqlite to let you crunch data in your local",
   "module": "index.ts",
   "type": "module",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
   "scripts": {
     "compile": "rm -rf dist && tsc"
   },
