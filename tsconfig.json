@@ -5,8 +5,8 @@
     "target": "esnext",
     "moduleResolution": "bundler",
     "moduleDetection": "force",
-    "allowImportingTsExtensions": true,
-    "noEmit": true,
+    "allowImportingTsExtensions": false,
+    "noEmit": false,
     "composite": true,
     "strict": true,
     "downlevelIteration": true,
@@ -15,8 +15,10 @@
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
     "allowJs": true,
+    "outDir": "dist",
     "types": [
       "bun-types" // add Bun global
     ]
-  }
+  },
+  "include": ["src/index.ts", "src/*.ts", "src/**/*.ts"]
 }
