@@ -4,6 +4,7 @@
   "keywords": ["bun", "bun sqlit", "local sql"],
   "author": "Filip Danic <filipdanic7@gmail.com> (https://danicfilip.com)",
   "bugs": "https://github.com/filipdanic/furnace-sql/issues",
+  "license": "MIT",
   "description": "a wrapper around bun:sqlite to let you crunch data in your local",
   "module": "index.ts",
   "type": "module",
